@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>study</title>
+    <link rel="icon" href="C:\study\fox.png" type="image/png" sizes="16x16 62x62">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+   <header>
+        <div>
+            <img src="fox.png" alt="Logo">
+        </div>
+        <p>Welcome to the new way of studying</p>
+    </header>
+
+    <main>
+        <div class="subject-button" onclick="navigate('physics')">
+            <img src="physics.png" alt="Physics">
+            <p>Physics </p> 
+        </div>
+        <div class="subject-button" onclick="navigate('chemistry')">
+            <img src="Chemistry.png" alt="Chemistry">
+            <p>Chemistry</p>
+        </div>
+        <div class="subject-button" onclick="navigate('math')">
+            <img src="Maths.png" alt="Math">
+            <p>Math</p>
+        </div>
+    </main>
+
+    <footer>
+        <p style="text-align: center;">Yash Vinchhi</p>
+        <div class="social">
+            <a href="https://www.instagram.com/yeaas_vinchhi/" target="_blank">
+                <img src="instagram.svg" alt="Instagram">
+            </a>
+            <a href="https://www.linkedin.com/in/yash-h-vinchhi-25176b297/" target="_blank">
+                <img src="linkedin.svg" alt="linkedin">
+            </a>
+            <a href="https://twitter.com/yashhvinchhi" target="_blank">
+                <img src="twitter.svg" alt="twitter">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function navigate(subject) {
+            window.location.href = subject + '.html';
+        }
+    </script>
+
+</body>
+</html>
